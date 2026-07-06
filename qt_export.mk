@@ -15,5 +15,6 @@ export_qmlproject:
 	  --platform tviic2d6mlite-baremetal \
 	  --toolchain gnu \
 	  --infineon-resource-generator=../../tool/graphics/bin/windows/ResourceGenerator.exe \
+	  --board-sdk ../../../mtb_shared/tviic2d-gfx-mw \
 	  --generate-entrypoint
 
