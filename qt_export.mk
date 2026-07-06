@@ -14,6 +14,6 @@ export_qmlproject:
 	  --boarddefaults $(QUL_BOARD_DEFAULTS) \
 	  --platform tviic2d6mlite-baremetal \
 	  --toolchain gnu \
-	  --infineon-resource-generator=tool/graphics/bin/windows/ResourceGenerator.exe \
+	  --infineon-resource-generator=../../tool/graphics/bin/windows/ResourceGenerator.exe \
 	  --generate-entrypoint
 
